@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const url = "mongodb+srv://chuni1998:oqqFjTXFjUsqh5Ry@cluster0.fikhe.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const url = "" //URL Removed
 const dbName = 'myFirstDatabase'
 
 var dbClient;

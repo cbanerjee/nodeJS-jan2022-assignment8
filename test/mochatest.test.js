@@ -14,7 +14,7 @@ describe('Mocha Test on http://localhost:3000/ for Express Mongo CRUD', () => {
         chai.request(url)
             .get('/')
             .then( (res) =>{
-                console.log(res.status);
+                // console.log(res.status);
                 expect(res).to.have.status(200)
                 done()
             })
@@ -30,7 +30,7 @@ describe('Mocha Test on http://localhost:3000/ for Express Mongo CRUD', () => {
                 message : "A Random Data"
             })
             .then( (res)=>{
-                console.log(res.status);
+                // console.log(res.status);
                 expect(res).to.have.status(200)
                 done()
             })
@@ -43,7 +43,7 @@ describe('Mocha Test on http://localhost:3000/ for Express Mongo CRUD', () => {
             .post('/add/')
             .send({ })
             .then( (res)=>{
-                console.log(res.status);
+                // console.log(res.status);
                 expect(res).to.have.status(200)
                 done()
             })
